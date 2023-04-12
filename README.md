@@ -1,5 +1,5 @@
 # Markdown Image Uploader
-將 Markdown 檔案中的本地圖片，透過 PicGo 自動上傳至圖床，並將圖片路徑替換為上傳後的圖片網址，以便在網路上分享 Markdown 檔案時顯示圖片
+
 
 ## 說明
 
