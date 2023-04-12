@@ -24,9 +24,7 @@ def upload_image(img_path):
     # 只取得輸出的最後一行，因為這行才是網址
     tmp = result.stdout.decode().strip().split()
     url = result.stdout.decode().strip().split("\n")[-1]
-    # print(f"img: {url}")
     if not url.startswith('http'):
-        # print(f"tmp:{tmp}")
         raise ValueError(f"Error: Failed to upload image: {tmp}")
     
     return url
