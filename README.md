@@ -1,8 +1,5 @@
 # Markdown Image Uploader
 
-
-## 說明
-
 Markdown Image Uploader 是一個 Python 程式，可用於將 Markdown 檔案中的本地圖片自動上傳至圖床，並將圖片路徑替換為上傳後的圖片網址，以便在網路上分享 Markdown 檔案時顯示圖片。
 
 程式主要功能：
