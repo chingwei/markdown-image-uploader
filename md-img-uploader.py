@@ -19,7 +19,6 @@ picgo_cmd = "picgo upload {input}"
 
 # 定義函數，用於上傳圖片並返回上傳後的網址
 def upload_image(img_path):
-    # result = subprocess.run(picgo_cmd.format(input=img_path), stdout=subprocess.PIPE, shell=True)
     result = subprocess.run(picgo_cmd.format(input=f'"{img_path}"'), stdout=subprocess.PIPE, shell=True)
 
     # 只取得輸出的最後一行，因為這行才是網址
